@@ -1,13 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Falcon FF Esports</title>
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline bg-black text-white text-center w-half inline-block mx-auto my-0 mt-0 py-0 border">ansh</h1>
-    
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+<header class="bg-gray-950 shadow-lg">
+  <div class="container mx-auto flex items-center justify-between p-5">
+    <div class="flex items-center space-x-4">
+      <img src="https://liquipedia.net/commons/images/thumb/b/b3/Falcons_Esports_allmode_full.png/255px-Falcons_Esports_allmode_full.png" alt="Falcons Logo" class="w-16 h-16">
+      <h1 class="text-3xl font-bold text-indigo-400">Falcon FF</h1>
+    </div>
+    <nav class="space-x-6 text-gray-300">
+      <a href="index.html" class="hover:text-indigo-400 transition">Home</a>
+      <a href="team.html" class="hover:text-indigo-400 transition">Team</a>
+      <a href="tournament.html" class="hover:text-indigo-400 transition">Tournaments</a>
+      <a href="moments.html" class="hover:text-indigo-400 transition">Moments</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="relative bg-gray-950">
+  <div class="absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1600280500073-11a2dc451f86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjMyNXwwfDF8c2VhcmNofDJ8fGdhbWluZyUyMGVzcG9ydHN8ZW58MHx8fHwxNjk5NjE1Mjk5&ixlib=rb-4.0.3&q=80&w=1920" class="w-full h-full object-cover opacity-40" alt="Esports background">
+  </div>
+  <div class="relative container mx-auto py-32 text-center">
+    <h1 class="text-5xl md:text-6xl font-bold text-white mb-4">Falcon FF</h1>
+    <p class="text-gray-300 text-lg md:text-xl max-w-2xl mx-auto mb-8">Elite esports team competing in Free Fire and multiple games globally. Join us on our journey to dominate international tournaments and inspire fans worldwide.</p>
+    <a href="tournament.html" class="bg-indigo-500 text-white px-8 py-3 rounded-xl hover:bg-indigo-600 font-semibold transition">View Tournaments</a>
+  </div>
+</section>
+
+<!-- Achievements Section -->
+<section class="py-24">
+  <div class="container mx-auto text-center mb-16">
+    <h2 class="text-4xl font-bold text-indigo-400 mb-4">Team Achievements</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto">Falcon FF has a track record of excellence in Free Fire tournaments worldwide.</p>
+  </div>
+  <div class="container mx-auto grid md:grid-cols-3 gap-8">
+    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition text-center">
+      <h3 class="text-white font-semibold text-xl mb-2">Free Fire World Series SE 2025 Fall</h3>
+      <p class="text-gray-400 mb-2">1st Place – Battle Royale</p>
+      <p class="text-gray-400">$100,000 Prize</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition text-center">
+      <h3 class="text-white font-semibold text-xl mb-2">Free Fire World Series SE 2025 Fall</h3>
+      <p class="text-gray-400 mb-2">1st Place – Clash Squad</p>
+      <p class="text-gray-400">$30,000 Prize</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition text-center">
+      <h3 class="text-white font-semibold text-xl mb-2">Free Fire All Stars 2025</h3>
+      <p class="text-gray-400 mb-2">2nd Place – Ninja Clash</p>
+      <p class="text-gray-400">$20,000 Prize</p>
+    </div>
+  </div>
+</section>
+
+<!-- Latest News Section -->
+<section class="py-24 bg-gray-950">
+  <div class="container mx-auto text-center mb-12">
+    <h2 class="text-4xl font-bold text-indigo-400 mb-4">Latest News</h2>
+    <p class="text-gray-400 max-w-2xl mx-auto">Stay updated with Falcon FF’s tournament highlights, team updates, and exclusive esports content.</p>
+  </div>
+  <div class="container mx-auto grid md:grid-cols-3 gap-8">
+    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition">
+      <img src="https://images.unsplash.com/photo-1603788934382-4f67fa18e6b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjMyNXwwfDF8c2VhcmNofDR8fGdhbWluZyUyMGVzcG9ydHN8ZW58MHx8fHwxNjk5NjE1Mjk5&ixlib=rb-4.0.3&q=80&w=400" class="rounded-lg mb-4" alt="News 1">
+      <h4 class="text-white font-semibold text-lg mb-2">Falcon FF Wins SE 2025 Fall Clash Squad</h4>
+      <p class="text-gray-400 text-sm">The team clinched the first place in the SE 2025 Fall Clash Squad tournament, showing outstanding strategy and skill.</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition">
+      <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjMyNXwwfDF8c2VhcmNofDh8fGdhbWluZyUyMGVzcG9ydHN8ZW58MHx8fHwxNjk5NjE1Mjk5&ixlib=rb-4.0.3&q=80&w=400" class="rounded-lg mb-4" alt="News 2">
+      <h4 class="text-white font-semibold text-lg mb-2">Top Players Spotlight</h4>
+      <p class="text-gray-400 text-sm">Highlighting the exceptional gameplay of Falcon FF’s key players in recent tournaments and events.</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-xl border border-gray-700 hover:border-indigo-500 transition">
+      <img src="https://images.unsplash.com/photo-1603791452906-3f2c82c9dc9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5NjMyNXwwfDF8c2VhcmNofDN8fGdhbWluZyUyMGVzcG9ydHN8ZW58MHx8fHwxNjk5NjE1Mjk5&ixlib=rb-4.0.3&q=80&w=400" class="rounded-lg mb-4" alt="News 3">
+      <h4 class="text-white font-semibold text-lg mb-2">New Sponsorship Announcement</h4>
+      <p class="text-gray-400 text-sm">Falcon FF partners with leading gaming brands to expand support and grow the esports ecosystem.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-gray-950 border-t border-gray-800 py-8 text-center">
+  <h3 class="text-xl font-semibold text-white mb-2">Falcon FF</h3>
+  <p class="text-gray-400">Professional Esports Organization</p>
+  <p class="text-gray-400 mt-2">Contact: falconff@gmail.com</p>
+  <p class="text-indigo-400 mt-4 italic">"Soar High, Strike Hard!"</p>
+  <p class="text-gray-500 mt-2 text-sm">© 2025 Falcon FF Team</p>
+</footer>
+
 </body>
 </html>
